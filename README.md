@@ -10,5 +10,7 @@ The goal of this project is to build a shiny app where users can clean their sto
   - look for the existing name in flybase entries
   - ask the user to select the right entry
   
-  
-Contributions are welcome, we will need to expand the rflybase package for this to work, too.
+ 
+ The output should be compatible with the upload of drososhare.net, in order for the clean list to be updated with clean information (https://drososhare.wordpress.com/2017/01/16/our-wish-for-2017-a-clean-stock-list-for-your-lab-2/)
+
+Contributions are very welcome, we will need to expand the rflybase package for this to work, too.
