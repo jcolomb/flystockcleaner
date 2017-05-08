@@ -10,21 +10,31 @@ library(shiny)
 shinyUI(fluidPage(
 
   # Application title
-  titlePanel("Old Faithful Geyser Data"),
+  titlePanel("fly stock name cleaner"),
 
   # Sidebar with a slider input for number of bins
   sidebarLayout(
     sidebarPanel(
-      sliderInput("bins",
-                  "Number of bins:",
-                  min = 1,
-                  max = 50,
-                  value = 30)
+      fileInput('file1', 'Choose CSV File',
+                accept=c('text/csv', 
+                         'text/comma-separated-values,text/plain', 
+                         '.csv')),
+      tags$hr(),
+      checkboxInput('header', 'Header', TRUE),
+      radioButtons('sep', 'Separator',
+                   c(Comma=',',
+                     Semicolon=';',
+                     Tab='\t'),
+                   ','),
+      radioButtons('quote', 'Quote',
+                   c(None='',
+                     'Double Quote'='"',
+                     'Single Quote'="'"),
+                   '"')
     ),
-
-    # Show a plot of the generated distribution
     mainPanel(
-      plotOutput("distPlot")
+      tableOutput('contents')
     )
   )
-))
+  )
+)
