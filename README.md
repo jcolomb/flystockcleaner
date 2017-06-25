@@ -2,7 +2,7 @@
 
 The goal of this project is to build a shiny app where users can clean their stock list. They should be able to:
 
-- upload a fly stock list
+- upload a fly stock list *(work with .csv)*
 - automatically check and label each entry for cleaness (is the name an unique idenfier for that line)
 - create a new column with a reference ID for clean entries
 - create new reference ID for lines not in flybase (new combination of existing genetic elements)  

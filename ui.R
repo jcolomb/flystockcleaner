@@ -22,7 +22,29 @@ fluidPage(
                    '"')
     ),
     mainPanel(
-      tableOutput('contents')
+      tabsetPanel(
+        tabPanel ('file',tableOutput('contents') ),
+        tabPanel('clean', 
+                 
+                 'this is the cleaning page',
+                 
+                 #selecting the fly name column-uiside
+                 uiOutput("Box1"),
+                 
+                 #selecting the bdsc number column-uiside
+                 uiOutput("Box2")
+                 
+                 , 'use input$BDSC to get:', textOutput('BDSC'),
+                 
+                 tags$br(),tags$br(),
+                 
+                 actionButton ('cleanlist', 'add correct name if BDSC number given. (this may take some time, be patient.)')
+                 
+                 
+                 ,tableOutput('contents2')
+                 )
+      )  
+      
     )
   )
 )
