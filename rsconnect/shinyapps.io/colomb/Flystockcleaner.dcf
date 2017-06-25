@@ -1,0 +1,10 @@
+name: Flystockcleaner
+title: Flystockcleaner
+account: colomb
+server: shinyapps.io
+appId: 192227
+bundleId: 881580
+url: https://colomb.shinyapps.io/Flystockcleaner/
+when: 1498425825.32641
+asMultiple: FALSE
+asStatic: FALSE

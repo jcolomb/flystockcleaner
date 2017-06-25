@@ -39,8 +39,10 @@ fluidPage(
                  tags$br(),tags$br(),
                  
                  actionButton ('cleanlist', 'add correct name if BDSC number given. (this may take some time, be patient.)')
-                 
-                 
+                 ,tags$br()
+                 ,"NB: flybase names are returned, they are sometimes different from BDSC names. Genotype column is moved with the new column to the far right to make it easier to compare the two."
+                 ,tags$br()
+                 , downloadLink("downloadData", "Download the result file")
                  ,tableOutput('contents2')
                  )
       )  

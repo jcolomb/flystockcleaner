@@ -48,12 +48,21 @@ cleanlist <- observeEvent(input$cleanlist, {
   #                          message = 'this may take some time, plese wait')
   data  <- values$inventory
   BDSC <- input$BDSC
+  fly_name <- input$fly_name
   
   source("cleanlist.r", local = T)
   values$inventorycl=data
 })
 
-
+output$downloadData <-downloadHandler(
+  filename = function() {
+    "stocklist_cleaned.csv"
+  },
+  content = function(file) {
+    write.csv(values$inventorycl, file)
+  }
+)
+  
 output$contents2 <- renderTable({   
   
   if (is.null(values$inventorycl))

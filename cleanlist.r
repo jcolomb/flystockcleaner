@@ -2,7 +2,7 @@
 #libraries
 #install rflybase
 #library("devtools")
-#devtools::install_github("ropensci/rflybase")
+#devtools::install_github("jcolomb/rflybase")
 
 library(stringr)
 library(dplyr)
@@ -21,6 +21,7 @@ library (rflybase)
 # if no bdsc number
 conn <- rflybase::fb_connect()
 
+data=data[c(setdiff(names(data), fly_name), fly_name)]
 data$BDSC <- NA
 if ( ncol(data[BDSC == names(data)]) > 0){
   
@@ -45,6 +46,7 @@ if ( ncol(data[BDSC == names(data)]) > 0){
     
   }#end loop
 }# end of BDSC number change
+
 
 
 
