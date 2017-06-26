@@ -5,7 +5,7 @@ fluidPage(theme = "bootstrap.css",
     
 
     
-    mainPanel("© Mozilla Public License 2.0;  ", tags$a(href="https://github.com/jcolomb/flystockcleaner", "open source project hosted on github"),
+    mainPanel("v. 0.0.1, © Mozilla Public License 2.0;  ", tags$a(href="https://github.com/jcolomb/flystockcleaner", "open source project hosted on github"),
       tabsetPanel(
         tabPanel ('upload your list',
                   sidebarPanel(
@@ -45,12 +45,9 @@ fluidPage(theme = "bootstrap.css",
                  tags$br(),tags$br(),
                  
                  actionButton ('cleanlist', 'Clean from stock number')
-                 ,'work if BDSC number or FBstID is given. (this may take some time, be patient.)'
-                 ,tags$br()
-                 ,"NB: flybase names are returned, they are sometimes different from BDSC names. Genotype column is copied with the new columns to the far right to make it easier to compare the three."
                  
                  ),
-                mainPanel('Clean from stock number works if BDSC number or FBstID is given. (this may take some time, be patient.)'
+                mainPanel('Clean from stock number: works if BDSC number or FBstID is given. (this may take some time, be patient.)'
                           ,tags$br()
                           ,"NB: flybase names are returned, they are sometimes different from BDSC names. Genotype column is copied with the new columns to the far right to make it easier to compare the three."
                           ,tags$br()

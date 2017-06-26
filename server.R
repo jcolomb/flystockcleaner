@@ -82,6 +82,6 @@ output$contents2 <- renderDataTable({
     return(values$inventory)
   
   values$inventorycl
-}, escape = FALSE)
+}, escape = FALSE,  options = list(lengthMenu = c(100, 200, -1), pageLength = 100))
 
 }
