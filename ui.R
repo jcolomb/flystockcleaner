@@ -14,6 +14,9 @@ fluidPage(theme = "bootstrap.css",
                               accept=c('text/csv', 
                                        'text/comma-separated-values,text/plain', 
                                        '.csv')),
+                    
+                    fileInput('filexls', 'Choose excel File',
+                              accept=c('.xls','.xlsx')),
                     tags$hr(),
                     checkboxInput('header', 'Header', TRUE),
                     radioButtons('sep', 'Separator',
@@ -26,6 +29,7 @@ fluidPage(theme = "bootstrap.css",
                                    'Double Quote'='"',
                                    'Single Quote'="'"),
                                  '"')
+                    
                   ),
                   mainPanel("you can only upload .csv file for now.",
                             tableOutput('contents') )

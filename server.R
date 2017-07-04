@@ -3,6 +3,7 @@
 library(shiny)
 library(tidyverse)
 library(openxlsx)
+library (readxl)
 
 function(input, output, session) {
   values <- reactiveValues()
@@ -21,12 +22,29 @@ output$contents <- renderTable({
     # be found.
     
     inFile <- input$file1
+    inFilexls <- input$filexls
     
-    if (is.null(input$file1))
+    
+    
+    
+    
+    if (is.null(input$file1) & is.null(input$filexls) )
       return(NULL)
     
-    values$inventory=read.csv(inFile$datapath, header=input$header, sep=input$sep, 
-             quote=input$quote)
+    if (!is.null(input$file1))
+      {values$inventory=read.csv(inFile$datapath, header=input$header, sep=input$sep, 
+                                       quote=input$quote)}
+    
+    if (!is.null(input$filexls))
+    { ext <- tools::file_ext(inFilexls$name)
+    if (ext == "xlsx"){
+      values$inventory=as.data.frame(readxl::read_xlsx(inFilexls$datapath) )
+    }else {
+      values$inventory=as.data.frame(readxl::read_xls(inFilexls$datapath) )
+    }
+    }
+  
+    values$inventory
   })
 
 
