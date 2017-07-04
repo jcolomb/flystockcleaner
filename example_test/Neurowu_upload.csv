@@ -1,0 +1,141 @@
+Genotype,internal ZS No. ,visibility,fly status,Bloomington No.
+Canton S,ZS                   1,public,in stock,1
+w* ;; P(w+mC=UAS-GFP.S65T)T10,7,public,in stock,
+y[1] w[*]; P{w[+mC]=UAS-mCD8::GFP.L}LL5,26,public,in stock,NA
+ w1118 P(w+mC=UAS-rpr.C)27,34,public,in stock,5823
+w1118 P(w+mC=UAS-rpr.C)14,35,public,in stock,5824
+ w+;P(w+mC=Cha-GAL4.W)19B  P(w+mC=UAS-GFP.S65T)T2,36,public,in stock,6793
+"w[1118];P{w[+mC]=Cha-GAL4.7.4)19B/CyO, P{ry[+t7.2]=sevRas1.V12}FK1",37,public,in stock,6798
+w1118;P(w+mC=UAS-Cameleon.2.1)82,38,public,in stock,6901
+w[*]; P{w[+mC]=UAS-n-syb.eGFP}2,47,public,in stock,6921
+w[*];; P{w[+mC]=UAS-syt.eGFPs}3,54,public,in stock,6926
+w[*]; P{w[+mC]=UAS-syt.eGFP}2 ,58,public,in stock,6925
+w[*]; Pin[1]/CyO; P{?GawB}221w- ,153,public,in stock,26259
+"y[1] w[*]; P{w[+mW.hs]=GawB}477, P{w[+mC]=UAS-mCD8::GFP.L}LL5",174,public,in stock,8746
+"y[1] w[*]; P{w[+mC]=UAS-NaChBac-EGFP}1/TM3, Sb[1]",175,public,in stock,9467
+w[*]; P{w[+mC]=GAL4-Hsp70.PB}2,177,public,in stock,2077
+w[*]; P{w[+mW.hs]=GawB}477/CyO,180,public,in stock,8737
+"y[1] w[*]; P{w[+mW.hs]=GawB}109(2)80, P{w[+mC]=UAS-mCD8::GFP.L}LL5",181,public,in stock,8768
+"y[1] w[*]; P{w[+mC]=tubP-GAL4}LL7/TM3, Sb[1]",184,public,in stock,5138
+y[1] w[*]; P{w[+mC]=npf-GAL4.1}1,187,public,in stock,25682
+w[*]; P{w[+mC]=GAL4-Hsp70.PB}89-2-1,189,public,in stock,1799
+y[1] w[*]; P{w[+mC]=npf-GAL4.1}2,190,public,in stock,25681
+w[*]; P{[+mW.hs]=GawB}c42,248,public,in stock,30835
+Act-Gal4/CyO,249,public,in stock,4414
+"w[*]; P{w[+mC]=tubP-GAL80[ts]}20; TM2/TM6B, Tb[1]"",""1;2;3"",",285,public,in stock,7019
+"w[1118]; P{w[+mC]=UAS-myr-mRFP}1"",""1;2"",",290,public,in stock,7118
+"""w[*]; noc[Sco]/CyO; P{w[+mC]=tubP-GAL80[ts]}7"",""1;2;3"",",293,public,in stock,7018
+w[1118]; Mi (ET1) Ast MB10261,332,public,in stock,29107
+UAS-DAR 2-RNA; (III) TR;P ,333,public,in stock,25935
+UAS-AstC-RNAi(III) (TRiP),337,public,in stock,25868
+UAS-MIP-RNAi (III) TRiP ,339,public,in stock,26246
+UAS-Ast-RNAi (III) TRiP,345,public,in stock,25866
+"yw,UAS-Gal4;UAS-Gal4;UAS-Gal4 (X;II;III)",347,public,in stock,5940
+UAS-DAR1-RNAi (III) (TRiP) ,349,public,in stock,27280
+UAS-GCaMP3 (x),350,public,in stock,32235
+"y[1] w[*]; Bl[1]/CyO, y[+]; P{w[+mC]=Ccap-GAL4.P}9",397,public,in stock,25686
+y[1] v[1]; P{y[+t7.7] v[+t1.8]=TRiP.JF01964}attP2 ,398,public,in stock,25944
+"w[*]; P{w[+mC]=UAS-TrpA1.K}attP16 v[+t1.8]=TRiP.JF02981}attP2/TM3, Sb[1]",399,public,in stock,26263
+y[1] v[1]; P{y[+t7.7] v[+t1.8]=TRiP.HM05071}attP2 ,400,public,in stock,28583
+w[*]; P{w[+mC]=UAS-amon.R}14F ,401,public,in stock,29007
+w[*]; P{w[+mC]=UAS-amon.R}40L,402,public,in stock,29008
+w[*]; P{w[+mC]=UAS-amon-RNAi}78b,403,public,in stock,29009
+w[*]; P{w[+mC]=UAS-amon-RNAi}69h,404,public,in stock,29010
+w[*]; P{w[+mC]=amon-GAL4.R}91D,405,public,in stock,30554
+w[*]; P{w[+mC]=20XUAS-GCaMP3}attP2,406,public,in stock,32236
+w[1118]; P{w[+mC]=UAS-DenMark}3,407,public,in stock,33061
+w[1118]; P{w[+mC]=UAS-DenMark}2,408,public,in stock,33062
+w[1118]; P{w[+mC]=GMR23F09-GAL4}attP2 ,409,public,in stock,45130
+w[1118]; P{w[+mC]=GMR22D05-GAL4}attP2 ,410,public,in stock,45475
+w[1118]; P{w[+mC]=GMR22H03-GAL4}attP2,411,public,in stock,45481
+w[1118]; P{w[+mC]=GMR23D04-GAL4}attP2 ,412,public,in stock,45487
+"w[1118]; P{w[+mC]=GMR19A12-GAL4}attP2/TM3, Sb[1] ",413,public,in stock,45831
+w[1118]; P{w[+mC]=GMR19B08-GAL4}attP2,414,public,in stock,45832
+w[1118]; P{w[+mC]=GMR60E07-GAL4}attP2 ,415,public,in stock,45895
+w[1118]; P{w[+mC]=GMR57E02-GAL4}attP2 ,416,public,in stock,46381
+w[1118]; P{w[+mC]=GMR57E07-GAL4}attP2,417,public,in stock,46382
+w[1118]; P{w[+mC]=GMR57F07-GAL4}attP2,418,public,in stock,46389
+w[1118]; P{w[+mC]=GMR57F10-GAL4}attP2,419,public,in stock,46391
+w[1118]; P{w[+mC]=GMR60G09-GAL4}attP2,420,public,in stock,46441
+w[1118]; P{w[+mC]=GMR63A04-GAL4}attP2,421,public,in stock,46511
+w[1118]; P{w[+mC]=GMR64D08-GAL4}attP2,422,public,in stock,46539
+w[1118]; P{w[+mC]=GMR64E05-GAL4}attP2 ,423,public,in stock,46541
+w[1118]; P{w[+mC]=GMR64E10-GAL4}attP2 ,424,public,in stock,46542
+w[1118]; P{w[+mC]=GMR64H09-GAL4}attP2,425,public,in stock,46547
+w[1118]; P{w[+mC]=GMR65C05-GAL4}attP2,426,public,in stock,46554
+w[1118]; P{w[+mC]=GMR65E05-GAL4}attP2,427,public,in stock,46559
+y[1] w[*]; P{w[+mC]=UAS-Ork1.Delta-C}2,428,public,in stock,6586
+y[1] v[1]; P{y[+t7.7] v[+t1.8]=TRiP.JF02577}attP2,429,public,in stock,27275
+"w[*]; P{w[+mC]=UAS-TrpA1.K}attP2/TM6B, Tb[1]",430,public,in stock,26264
+"y[1] v[1]; P{y[+t7.7] v[+t1.8]=TRiP.JF02981}attP2/TM3, Sb[1]",431,public,in stock,28345
+"P{w[+mC]=UAS-CD2::HRP}1, w[*]",511,public,in stock,9908
+"w1118; Df(2R)ED3610, P{3'.RS5+3.3'}ED3610/In(2L)CyLtR In(2R)Cy, Cy1 amosRoi-1",512,public,in stock,9066
+y1 v1; P{UAS-GFP.VALIUM10}attP2   ( Trip control),513,public,in stock,35786
+w[*] P{w[+mC]=10XUAS-IVS-mCD8::RFP}attP18 P{w[+mC]=13XLexAop2-mCD8::GFP}su(Hw)attP8,575,public,in stock,32229
+"P{w[+mC]=UAS-preproANF-EMD}136.3, y[1] w[*]",576,public,in stock,7001
+"P{w[+mC]=UAS-CD4-tdGFP}8M1, w[1118]                  ",586,public,in stock,35838
+y[1] w[*]; P{w[+mC]=UAS-CD4-tdGFP}8M2                   ,587,public,in stock,35839
+y[1] w[*]; P{w[+mC]=UAS-CD4-tdTom}7M1                 ,588,public,in stock,35841
+w1118; P{GMR67E10-GAL4}attP2  (1;3)                      ,589,public,in stock,46581
+w1118; P{GMR65D02-GAL4}attP2  (1;3)                       ,590,public,in stock,39350
+w[*]; P{w[+mC]=nrv2-GAL4.S}8 P{w[+mC]=UAS-GFP.S65T}eg[T10]    ,592,public,in stock,6794
+y[1] v[1]; P{y[+t7.7] v[+t1.8]=TRiP.JF02917}attP2                               ,593,public,in stock,27989
+"y[1] v[1]; P{y[+t7.7] v[+t1.8]=TRiP.JF01349}attP2/TM3, Ser[1]              ",594,public,in stock,31380
+y[1] P{w[+mW.hs]=GawB}svr[PG33] w[*]/FM7h                                ,595,public,in stock,31413
+w[1118]; P{y[+t7.7] w[+mC]=GMR66C01-GAL4}attP2        ,618,public,in stock,39393
+w[1118]; P{y[+t7.7] w[+mC]=GMR64B05-GAL4}attP2        ,619,public,in stock,39292
+w[1118]; P{y[+t7.7] w[+mC]=GMR64D08-GAL4}attP2        ,620,public,in stock,46539
+w[1118]; P{y[+t7.7] w[+mC]=GMR64G12-GAL4}attP2          ,621,public,in stock,49607
+w[1118]; P{y[+t7.7] w[+mC]=GMR64C11-GAL4}attP2          ,622,public,in stock,39302
+w[1118]; P{y[+t7.7] w[+mC]=GMR64E10-GAL4}attP2         ,623,public,in stock,46542
+w[1118]; P{y[+t7.7] w[+mC]=GMR64C12-GAL4}attP2          ,625,public,in stock,49601
+w[1118]; P{y[+t7.7] w[+mC]=GMR64F01-GAL4}attP2       ,626,public,in stock,39307
+w[1118]; P{y[+t7.7] w[+mC]=GMR64E05-GAL4}attP2         ,627,public,in stock,46541
+w[1118]; P{y[+t7.7] w[+mC]=GMR64G09-GAL4}attP2          ,628,public,in stock,39320
+w[1118]; P{y[+t7.7] w[+mC]=GMR64C08-GAL4}attP2         ,629,public,in stock,39299
+w[1118]; P{y[+t7.7] w[+mC]=GMR60E07-GAL4}attP2           ,630,public,in stock,45895
+"w*; In(2LR)noc4LScorv9R, b1/CyO, P{ActGFP}JMR1",635,public,in stock,4533
+"w*; KrIf-1/CyO, P{GAL4-Mef2.R}2, P{UAS-mCD8.mRFP}2",636,public,in stock,26882
+"P{UAS-Dcr-2.D}1, w1118; P{GAL4-Mef2.R}R1",637,public,in stock,25756
+Df(2R)Drl[rv22]/CyO,#5/1,public,in stock,6142
+Df(2R)Drl[rv15]b/CyO,#5/2,public,in stock,6055
+Df(2R)Drl[rv3]bw/SM6a,#5/3,public,in stock,3920
+w;tubp-gal80ts;TM2/TM6B ,#32/10,public,in stock,7108
+UAS-GFP S65T (III),#9/9,public,in stock,
+y w; mCD8GFP/(Cyo),Box 3,public,in stock,5137
+y[1] w[67c23]; P{w[+mC] y[+mDint2]=EPgy2}EY13118,,public,in stock,21406
+w[1118]; P{w[+mGT]=GT1}Rh7[BG02264],,public,in stock,12787
+ y[1] v[1]; P{y[+t7.7] v[+t1.8]=TRiP.JF01813}attP2,,public,in stock,25796
+w[*]; P{w[+mC]=Tdc2-GAL4.C}2,,public,in stock,9313
+y[1] v[1]; P{y[+t7.7] v[+t1.8]=TRiP.JF02043}attP2,,public,in stock,26018
+" y[1] v[1]; P{y[+t7.7] v[+t1.8]=TRiP.JF02989}attP2/TM3, Sb[1]",,public,in stock,28353
+y[1] v[1]; P{y[+t7.7] v[+t1.8]=TRiP.JF02025}attP2,,public,in stock,26001
+  y[1] v[1]; P{y[+t7.7] v[+t1.8]=TRiP.JF02555}attP2 ,,public,in stock,27237
+  y[1] v[1]; P{y[+t7.7] v[+t1.8]=TRiP.JF01852}attP2 ,,public,in stock,25834
+"y[1] v[1]; P{y[+t7.7] v[+t1.8]=TRiP.JF02989}attP2/TM3, Sb[1]",,public,in stock,28353
+ y[1] v[1]; P{y[+t7.7] v[+t1.8]=TRiP.JF01851}attP2,,public,in stock,25833
+y[1] v[1]; P{y[+t7.7] v[+t1.8]=TRiP.JF02779}attP2,,public,in stock,27699
+  y[1] v[1]; P{y[+t7.7] v[+t1.8]=TRiP.JF02157}attP2 ,,public,in stock,31882
+y[1] v[1]; P{y[+t7.7] v[+t1.8]=TRiP.HM04077}attP2,,public,in stock,31765
+y[1] v[1]; P{y[+t7.7] v[+t1.8]=TRiP.JF02142}attP2,,public,in stock,26243
+y1 v1;+;P{TRiP.JF02625}attP2,,public,in stock,27316
+"w1118;P{EP}CG6178EP3251/TM6B, Tb1",,public,in stock,17104
+y1 w67c23; P{EPgy2}p38bEY11174,,public,in stock,22319
+y1 w67c23; ry506 P{SUPor-P}p38cKG05834,,public,in stock,14126
+w1118;+;Df Exel6198/TM2,,public,in stock,7677
+"w1118;+;Df Exel6187/TM6B, Tb",,public,in stock,9347
+"w1118;+;Df Exel6197/TM6B, Tb",,public,in stock,7676
+w1118 P{EP}CrebB-17AEP1378,,public,in stock,11446
+"P{UAS-CrebB-17A-a.cor}T25.4, ry506",,public,in stock,9233
+"w1118;P{dCREB-B-UAS}88/CyO, P{sevRas1.V12}FK1",,public,in stock,7219
+w1118;P{dCREB-B-UAS}94,,public,in stock,7220
+w; +; tub-GAL80/TM2,,public,in stock,7017
+w; Cha-GAL4/CyO; +,,public,in stock,6798
+"w, +; UAS-S65t-GFP",,public,in stock,1522
+w; +; UAS-cha-RNAi,,public,in stock,25856
+w; +; UAS-snpfr-RNAi,,public,in stock,27507
+w; +; UAS-snpf-RNAi,,public,in stock,25867
+w; +; UAS-npf-RNAi,,public,in stock,27237
+w; +; UAS-npfr1-RNAi,,public,in stock,25939
+w; +; UAS-itp-RNAi,,public,in stock,25799
+w; tim(UAS)-GAL4/CyO; UAS-itp-RNAi/MKRS,,public,in stock,6793

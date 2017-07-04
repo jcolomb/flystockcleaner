@@ -1,0 +1,5 @@
+"","Genotype","internal.ZS.No.","visibility","fly.status","Bloomington.No.","BDSC"
+"1","Canton S","ZS                   1","public","in stock",1,"FBst0000001"
+"2","w* ;; P(w+mC=UAS-GFP.S65T)T10","7","public","in stock",NA,NA
+"3","y[1] w[*]; P{w[+mC]=UAS-mCD8::GFP.L}LL5","26","public","in stock",NA,NA
+"4"," w1118 P(w+mC=UAS-rpr.C)27","34","public","in stock",5823,"w[1118] P{UAS-rpr.C}27"
