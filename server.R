@@ -102,4 +102,16 @@ output$contents2 <- renderDataTable({
   values$inventorycl
 }, escape = FALSE,  options = list(lengthMenu = c(100, 200, -1), pageLength = 100))
 
+
+
+output$contents3 <- renderDataTable({   
+  if (is.null(values$inventory))
+    return(NULL)
+  
+  if (is.null(values$inventorycl))
+    return(head(values$inventory))
+  
+  head(values$inventorycl)
+}, escape = FALSE,  options = list(lengthMenu = c(100, 200, -1), pageLength = 100))
+
 }
