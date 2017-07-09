@@ -69,7 +69,7 @@ cleanlist <- observeEvent(input$cleanlist, {
   BDSC <- input$BDSC
   fly_name <- input$fly_name
   
-  source("cleanlist.r", local = T)
+  source("cleanlist.r", local = TRUE)
   values$inventorycl=data
 })
 
@@ -93,7 +93,7 @@ output$downloadDataxl <-downloadHandler(
 )
   
 output$contents2 <- renderDataTable({   
-  if (is.null(input$file1))
+  if (is.null(values$inventory))
     return(NULL)
   
   if (is.null(values$inventorycl))

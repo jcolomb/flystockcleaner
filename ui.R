@@ -5,7 +5,7 @@ fluidPage(theme = "bootstrap.css",
     
 
     
-    mainPanel("v. 0.0.1, © Mozilla Public License 2.0;  ", tags$a(href="https://github.com/jcolomb/flystockcleaner", "open source project hosted on github"),
+    mainPanel("v. 0.1.0, © Mozilla Public License 2.0;  ", tags$a(href="https://github.com/jcolomb/flystockcleaner", "open source project hosted on github"),
       tabsetPanel(
         tabPanel ('upload your list',
                   sidebarPanel(
