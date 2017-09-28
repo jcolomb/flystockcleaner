@@ -64,9 +64,11 @@ fluidPage(theme = "bootstrap.css",
         
         tabPanel('export output',
                  mainPanel(    
-                    downloadLink("downloadData", "Download the result in a csv file")
+                    downloadLink("downloadData", "Download the result in a csv file.")
                    ,tags$br()
-                   , downloadLink("downloadDataxl", "Download the result in a xlsx file")
+                   , downloadLink("downloadDataxl", "Download the result in a xlsx file.")
+                   ,tags$br()
+                   , downloadLink("downloadART", "Download the ART table in a csv file.")
                  )
          
         )

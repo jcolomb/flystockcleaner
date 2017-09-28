@@ -4,6 +4,9 @@ library(shiny)
 library(tidyverse)
 library(openxlsx)
 library (readxl)
+library(stringr)
+library(dplyr)
+library (rflybase)
 
 function(input, output, session) {
   values <- reactiveValues()
@@ -71,6 +74,7 @@ cleanlist <- observeEvent(input$cleanlist, {
   
   source("cleanlist.r", local = TRUE)
   values$inventorycl=data
+  values$inventorycl_ART= data_art
 })
 
 output$downloadData <-downloadHandler(
@@ -91,6 +95,16 @@ output$downloadDataxl <-downloadHandler(
 
   }
 )
+output$downloadART <-downloadHandler(
+  filename = function() {
+    "ART_output.csv"
+  },
+  content = function(file) {
+    write.csv(values$inventorycl_ART, file)
+    
+  }
+)
+
   
 output$contents2 <- renderDataTable({   
   if (is.null(values$inventory))

@@ -3,8 +3,9 @@ title: Flystockcleaner
 account: colomb
 server: shinyapps.io
 appId: 192227
-bundleId: 883064
+bundleId: 994268
 url: https://colomb.shinyapps.io/Flystockcleaner/
-when: 1498519426.8057
+when: 1506212645.73458
 asMultiple: FALSE
 asStatic: FALSE
+ignoredFiles: example_test/Neurowu_upload.csv|example_test/shortlist.csv|example_test/stocklist_cleaned.csv|example_test/stocklist_cleaned.txt|example_test/stocklist_cleaned.xls|example_test/stocklist_cleaned.xlsx|www/bootstrapsolar.css
